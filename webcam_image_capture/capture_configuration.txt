@@ -1,0 +1,13 @@
+########### configuration file, do not delete ###########
+
+my_Path = 'D:\images_train'  # path to save captured images
+camera_No = 0  # 0 is usually the webcam, 1, 2 etc are additional cameras
+camera_Brightness = 80
+module_Val = 10  # SAVE EVERY iTH FRAME TO AVOID REPETITION
+min_Blur = 300  # SMALLER VALUE MEANS MORE BLURRINESS PRESENT
+gray_Image = False  # IMAGES SAVED COLORED OR GRAY
+save_Data = True  # SAVE DATA FLAG
+show_Image = True  # IMAGE DISPLAY FLAG
+img_Width = 640  # final image width its saved in
+img_Height = 480 # final image height its saved in
+programme_close_key = 'q' # press to close programme, do not remove single quotation marks

@@ -1,0 +1,25 @@
+########### configuration file, do not delete ###########
+
+# training feature detector parameters
+train_image_width = 480 # resize the training image
+train_image_height = 640 # resize the training image
+training_images_Path = "D:\images_train" # can set your own path
+descriptor_match_Threshold = 0.75 # increasing this will increase the matches but also number of errors
+Confidence = 12 # confidence level of matched image
+n_orb_Features = 1000 # more features will take longer to train 
+pickle_file_Path = "./feature_detection_descriptor_list.pkl" # default will generate a pickle file in the same directory
+
+# feature detection with webcam parameters
+camera_No = 0  # 0 is usually the webcam, 1, 2 etc are additional cameras
+camera_Brightness = 80
+img_Width = 640  # final image and height its saved in
+img_Height = 480 # final image and width its saved in
+
+k_Val = 2 # k is the number of values to match
+
+match_text_Colour = (0, 0, 255) # integers (B,G,R) format
+match_text_Position = (50,50) #(x,y)
+match_text_Size = 1
+match_text_thickness = 2
+
+programme_close_key = 'q' # press to close programme, do not remove single quotation marks
